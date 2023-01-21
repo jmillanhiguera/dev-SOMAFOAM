@@ -1,7 +1,7 @@
 #include <sys/types.h>
 #include <stdint.h>
 #include <stddef.h>
-#include "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/curl/curl.h"
+#include "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/curl/curl.h"
 
 
 #undef KEY

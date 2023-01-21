@@ -14,11 +14,11 @@ set(CTEST_USE_LAUNCHERS 1)
 # Emit these compiler warnings:
 set(ENV{CXXFLAGS} "$ENV{CXXFLAGS} -Wall")
 
-set(CTEST_SITE                          "guru.ucmerced.edu")
+set(CTEST_SITE                          "gpp-Strix-17-GL703GE")
 set(CTEST_BUILD_NAME                    "CTestTestLaunchers-scp")
 
-set(CTEST_SOURCE_DIRECTORY              "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTest/SmallAndFast")
-set(CTEST_BINARY_DIRECTORY              "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTestFailedSubmits/scp")
+set(CTEST_SOURCE_DIRECTORY              "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTest/SmallAndFast")
+set(CTEST_BINARY_DIRECTORY              "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTestFailedSubmits/scp")
 set(CTEST_CVS_COMMAND                   "CVSCOMMAND-NOTFOUND")
 set(CTEST_CMAKE_GENERATOR               "Unix Makefiles")
 set(CTEST_CMAKE_GENERATOR_PLATFORM      "")

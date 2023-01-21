@@ -169,7 +169,6 @@ int main(int argc, char *argv[])
 		    }
 			
 			
-
 		    scalar Cofactor = mspm().divFe();
 
 		    //Info << "Courant = " << Cofactor << endl;
@@ -186,8 +185,12 @@ int main(int argc, char *argv[])
 
 		    //Info << "Courant = " << Cofactor*runTime.deltaTValue() << endl;
 
+		    Info << "It either works or it does not" << endl;
+
 		    if (runTime.write() && restartCapabale)
 		    {   
+		    	Info << "where is the issue" << endl;
+
 				thermo.Te().write();
 
 			    thermo.T().write();

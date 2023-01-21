@@ -537,12 +537,8 @@ Foam::multiSpeciesPlasmaModel::divFe()
 
     volScalarField& divFe = tdivFe();
 
-    //Info << "div step " << endl;
-
     divFe = mag(0.5*fvc::div(F_[eIndex_]));
     tdivFe().correctBoundaryConditions();
-
-    //Info << "div step done " << endl;
 
     scalar maxdivFe = gMax(divFe);
 

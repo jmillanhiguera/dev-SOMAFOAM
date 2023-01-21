@@ -26,19 +26,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
+RM = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_SOURCE_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_BINARY_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 # Utility rule file for NightlyMemCheck.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
 include CMakeFiles/NightlyMemCheck.dir/progress.make
 
 CMakeFiles/NightlyMemCheck:
-	CMAKE_CTEST_COMMAND-NOTFOUND -D NightlyMemCheck
+	/usr/bin/ctest -D NightlyMemCheck
 
 NightlyMemCheck: CMakeFiles/NightlyMemCheck
 NightlyMemCheck: CMakeFiles/NightlyMemCheck.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/NightlyMemCheck.dir/clean:
 .PHONY : CMakeFiles/NightlyMemCheck.dir/clean
 
 CMakeFiles/NightlyMemCheck.dir/depend:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyMemCheck.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/curltest.c" "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o"
+  "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/curltest.c" "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -16,8 +16,8 @@ set(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/lib/CMakeFiles/cmcurl.dir/DependInfo.cmake"
-  "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmzlib/CMakeFiles/cmzlib.dir/DependInfo.cmake"
+  "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/lib/CMakeFiles/cmcurl.dir/DependInfo.cmake"
+  "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmzlib/CMakeFiles/cmzlib.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

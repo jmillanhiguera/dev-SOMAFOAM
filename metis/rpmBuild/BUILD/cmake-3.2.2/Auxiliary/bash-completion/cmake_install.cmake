@@ -1,8 +1,8 @@
-# Install script for directory: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Auxiliary/bash-completion
+# Install script for directory: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Auxiliary/bash-completion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/data/vayyaswamy/ltps/etc/../metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt")
+  set(CMAKE_INSTALL_PREFIX "/home/gpp/dev-SOMAFOAM/etc/../metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,14 +29,14 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake-3.2/completions" TYPE FILE FILES
-    "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Auxiliary/bash-completion/cmake"
-    "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Auxiliary/bash-completion/cpack"
-    "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Auxiliary/bash-completion/ctest"
+    "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Auxiliary/bash-completion/cmake"
+    "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Auxiliary/bash-completion/cpack"
+    "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Auxiliary/bash-completion/ctest"
     )
 endif()
 

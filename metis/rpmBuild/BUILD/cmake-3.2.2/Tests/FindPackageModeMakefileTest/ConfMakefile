@@ -1,7 +1,7 @@
 
 include cmakeExecutable.mk
 
-CMAKE_CURRENT_BINARY_DIR = "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/FindPackageModeMakefileTest"
+CMAKE_CURRENT_BINARY_DIR = "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/FindPackageModeMakefileTest"
 CMAKE_CXX_COMPILER = "/usr/bin/g++"
 CMAKE_CXX_COMPILER_ID = "GNU"
 

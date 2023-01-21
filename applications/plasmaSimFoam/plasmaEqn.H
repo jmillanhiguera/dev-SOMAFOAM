@@ -2,7 +2,11 @@
 
 	mspm().correct(Y, E, chemistry, fields);
 
+	kappa_e = mspm().electronConductivity(chemistry);
+
 	pem.ecorrect(chemistry, E);
+
+	gradTe = mspm().gradTe();
 
 	pem.icorrect(chemistry);
 

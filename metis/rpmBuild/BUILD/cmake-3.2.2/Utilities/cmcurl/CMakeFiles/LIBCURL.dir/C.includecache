@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/curltest.c
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/curltest.c
 curl/curl.h
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/curl/curl.h
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/curl/curl.h
 stdlib.h
 -
 string.h

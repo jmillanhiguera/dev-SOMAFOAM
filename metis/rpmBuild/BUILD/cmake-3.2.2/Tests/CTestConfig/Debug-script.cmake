@@ -2,8 +2,8 @@ set(CTEST_CMAKE_GENERATOR "Unix Makefiles")
 set(CTEST_CMAKE_GENERATOR_PLATFORM "")
 set(CTEST_CMAKE_GENERATOR_TOOLSET "")
 set(CTEST_PROJECT_NAME "CTestConfig")
-set(CTEST_SOURCE_DIRECTORY "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestConfig")
-set(CTEST_BINARY_DIRECTORY "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestConfig/Debug-script")
+set(CTEST_SOURCE_DIRECTORY "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestConfig")
+set(CTEST_BINARY_DIRECTORY "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestConfig/Debug-script")
 
 ctest_start(Experimental)
 

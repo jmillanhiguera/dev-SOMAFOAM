@@ -25,7 +25,7 @@ set(notice_exceptions
   )
 
 # Load the list of modules to check.
-set(dir "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Modules")
+set(dir "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Modules")
 file(GLOB all_modules RELATIVE "${dir}" "${dir}/*.cmake")
 list(REMOVE_ITEM all_modules ${notice_exceptions})
 

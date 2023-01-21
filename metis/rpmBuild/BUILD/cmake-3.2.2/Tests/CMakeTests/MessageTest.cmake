@@ -1,6 +1,6 @@
 execute_process(
   COMMAND ${CMAKE_COMMAND} -P
-          "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/MessageTestScript.cmake"
+          "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/MessageTestScript.cmake"
   OUTPUT_VARIABLE out
   ERROR_VARIABLE err
   RESULT_VARIABLE result

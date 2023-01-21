@@ -29,19 +29,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake
+CMAKE_COMMAND = /home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake
 
 # The command to remove a file.
-RM = /data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E remove -f
+RM = /home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0
+CMAKE_SOURCE_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64
+CMAKE_BINARY_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64
 
 # Include any dependencies generated for this target.
 include programs/CMakeFiles/mpmetis.dir/depend.make
@@ -54,17 +54,17 @@ include programs/CMakeFiles/mpmetis.dir/flags.make
 
 programs/CMakeFiles/mpmetis.dir/mpmetis.c.o: programs/CMakeFiles/mpmetis.dir/flags.make
 programs/CMakeFiles/mpmetis.dir/mpmetis.c.o: ../../programs/mpmetis.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object programs/CMakeFiles/mpmetis.dir/mpmetis.c.o"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mpmetis.dir/mpmetis.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/mpmetis.c
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mpmetis.dir/mpmetis.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/mpmetis.c
 
 programs/CMakeFiles/mpmetis.dir/mpmetis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mpmetis.dir/mpmetis.c.i"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/mpmetis.c > CMakeFiles/mpmetis.dir/mpmetis.c.i
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/mpmetis.c > CMakeFiles/mpmetis.dir/mpmetis.c.i
 
 programs/CMakeFiles/mpmetis.dir/mpmetis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mpmetis.dir/mpmetis.c.s"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/mpmetis.c -o CMakeFiles/mpmetis.dir/mpmetis.c.s
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/mpmetis.c -o CMakeFiles/mpmetis.dir/mpmetis.c.s
 
 programs/CMakeFiles/mpmetis.dir/mpmetis.c.o.requires:
 .PHONY : programs/CMakeFiles/mpmetis.dir/mpmetis.c.o.requires
@@ -77,17 +77,17 @@ programs/CMakeFiles/mpmetis.dir/mpmetis.c.o.provides.build: programs/CMakeFiles/
 
 programs/CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.o: programs/CMakeFiles/mpmetis.dir/flags.make
 programs/CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.o: ../../programs/cmdline_mpmetis.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object programs/CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.o"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/cmdline_mpmetis.c
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/cmdline_mpmetis.c
 
 programs/CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.i"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/cmdline_mpmetis.c > CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.i
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/cmdline_mpmetis.c > CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.i
 
 programs/CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.s"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/cmdline_mpmetis.c -o CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.s
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/cmdline_mpmetis.c -o CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.s
 
 programs/CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.o.requires:
 .PHONY : programs/CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.o.requires
@@ -100,17 +100,17 @@ programs/CMakeFiles/mpmetis.dir/cmdline_mpmetis.c.o.provides.build: programs/CMa
 
 programs/CMakeFiles/mpmetis.dir/io.c.o: programs/CMakeFiles/mpmetis.dir/flags.make
 programs/CMakeFiles/mpmetis.dir/io.c.o: ../../programs/io.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object programs/CMakeFiles/mpmetis.dir/io.c.o"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mpmetis.dir/io.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mpmetis.dir/io.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c
 
 programs/CMakeFiles/mpmetis.dir/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mpmetis.dir/io.c.i"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c > CMakeFiles/mpmetis.dir/io.c.i
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c > CMakeFiles/mpmetis.dir/io.c.i
 
 programs/CMakeFiles/mpmetis.dir/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mpmetis.dir/io.c.s"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c -o CMakeFiles/mpmetis.dir/io.c.s
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c -o CMakeFiles/mpmetis.dir/io.c.s
 
 programs/CMakeFiles/mpmetis.dir/io.c.o.requires:
 .PHONY : programs/CMakeFiles/mpmetis.dir/io.c.o.requires
@@ -123,17 +123,17 @@ programs/CMakeFiles/mpmetis.dir/io.c.o.provides.build: programs/CMakeFiles/mpmet
 
 programs/CMakeFiles/mpmetis.dir/stat.c.o: programs/CMakeFiles/mpmetis.dir/flags.make
 programs/CMakeFiles/mpmetis.dir/stat.c.o: ../../programs/stat.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object programs/CMakeFiles/mpmetis.dir/stat.c.o"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mpmetis.dir/stat.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/stat.c
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mpmetis.dir/stat.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/stat.c
 
 programs/CMakeFiles/mpmetis.dir/stat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mpmetis.dir/stat.c.i"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/stat.c > CMakeFiles/mpmetis.dir/stat.c.i
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/stat.c > CMakeFiles/mpmetis.dir/stat.c.i
 
 programs/CMakeFiles/mpmetis.dir/stat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mpmetis.dir/stat.c.s"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/stat.c -o CMakeFiles/mpmetis.dir/stat.c.s
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/stat.c -o CMakeFiles/mpmetis.dir/stat.c.s
 
 programs/CMakeFiles/mpmetis.dir/stat.c.o.requires:
 .PHONY : programs/CMakeFiles/mpmetis.dir/stat.c.o.requires
@@ -162,7 +162,7 @@ programs/mpmetis: programs/CMakeFiles/mpmetis.dir/build.make
 programs/mpmetis: libmetis/libmetis.a
 programs/mpmetis: programs/CMakeFiles/mpmetis.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable mpmetis"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mpmetis.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mpmetis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 programs/CMakeFiles/mpmetis.dir/build: programs/mpmetis
@@ -175,10 +175,10 @@ programs/CMakeFiles/mpmetis.dir/requires: programs/CMakeFiles/mpmetis.dir/stat.c
 .PHONY : programs/CMakeFiles/mpmetis.dir/requires
 
 programs/CMakeFiles/mpmetis.dir/clean:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && $(CMAKE_COMMAND) -P CMakeFiles/mpmetis.dir/cmake_clean.cmake
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && $(CMAKE_COMMAND) -P CMakeFiles/mpmetis.dir/cmake_clean.cmake
 .PHONY : programs/CMakeFiles/mpmetis.dir/clean
 
 programs/CMakeFiles/mpmetis.dir/depend:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs/CMakeFiles/mpmetis.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs/CMakeFiles/mpmetis.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : programs/CMakeFiles/mpmetis.dir/depend
 

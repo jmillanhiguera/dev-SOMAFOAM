@@ -4,5 +4,5 @@
 
 
 # Configuration directories and files
-SourceDirectory: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/CoberturaCoverage
-BuildDirectory: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/CoberturaCoverage
+SourceDirectory: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/CoberturaCoverage
+BuildDirectory: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/CoberturaCoverage

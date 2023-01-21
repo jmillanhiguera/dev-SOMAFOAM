@@ -1,9 +1,9 @@
 # Execute each test listed in:
 #
-set(scriptname "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CMakeMinimumRequiredTestScript.cmake")
+set(scriptname "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CMakeMinimumRequiredTestScript.cmake")
 set(number_of_tests_expected 8)
 
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ExecuteScriptTests.cmake")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ExecuteScriptTests.cmake")
 execute_all_script_tests(${scriptname} number_of_tests_executed)
 
 # And verify that number_of_tests_executed is at least as many as we know

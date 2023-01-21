@@ -12,10 +12,10 @@
 #ifndef cmsys_testSystemtools_h
 #define cmsys_testSystemtools_h
 
-#define EXECUTABLE_OUTPUT_PATH "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys"
+#define EXECUTABLE_OUTPUT_PATH "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys"
 
-#define TEST_SYSTEMTOOLS_SOURCE_DIR "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys"
-#define TEST_SYSTEMTOOLS_BINARY_DIR "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys"
+#define TEST_SYSTEMTOOLS_SOURCE_DIR "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys"
+#define TEST_SYSTEMTOOLS_BINARY_DIR "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys"
 /* #undef KWSYS_TEST_SYSTEMTOOLS_LONG_PATHS */
 
 #endif

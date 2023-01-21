@@ -2,7 +2,7 @@
 # test it.
 include(${CMAKE_ROOT}/Modules/CMakeDetermineCompilerId.cmake)
 
-set(MY_BINARY_DIR "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CompilerIdVendor")
+set(MY_BINARY_DIR "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CompilerIdVendor")
 file(REMOVE_RECURSE ${MY_BINARY_DIR})
 file(MAKE_DIRECTORY ${MY_BINARY_DIR})
 

@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/gcc
 # compile CXX with /usr/bin/g++
-C_FLAGS = -m64 -fPIC  -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcompress -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/CTest    -std=gnu11
+C_FLAGS = -m64 -fPIC  -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcompress -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/CTest -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/CursesDialog/form    -std=gnu11
 
 C_DEFINES = -DCMAKE_BUILD_WITH_CMAKE -DCURL_STATICLIB -DLIBARCHIVE_STATIC
 
-CXX_FLAGS = -m64 -fPIC  -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcompress -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/CTest    -std=gnu++1y
+CXX_FLAGS = -m64 -fPIC  -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcompress -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/CTest -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/CursesDialog/form    -std=gnu++14
 
 CXX_DEFINES = -DCMAKE_BUILD_WITH_CMAKE -DCURL_STATICLIB -DLIBARCHIVE_STATIC
 

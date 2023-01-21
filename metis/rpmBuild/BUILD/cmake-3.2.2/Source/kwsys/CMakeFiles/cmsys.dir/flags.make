@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/gcc
 # compile CXX with /usr/bin/g++
-C_FLAGS = -m64 -fPIC  -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys    -std=gnu11
+C_FLAGS = -m64 -fPIC  -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys    -std=gnu11
 
 C_DEFINES = -DKWSYS_NAMESPACE=cmsys
 
-CXX_FLAGS = -m64 -fPIC  -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys    -std=gnu++1y
+CXX_FLAGS = -m64 -fPIC  -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys    -std=gnu++14
 
 CXX_DEFINES = -DKWSYS_NAMESPACE=cmsys
 

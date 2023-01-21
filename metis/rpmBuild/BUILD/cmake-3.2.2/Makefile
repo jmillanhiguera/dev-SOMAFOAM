@@ -33,19 +33,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
+RM = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_SOURCE_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_BINARY_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@echo "Run CPack packaging tool..."
-	/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackConfig.cmake
+	/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@echo "Run CPack packaging tool for source..."
-	/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackSourceConfig.cmake /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CPackSourceConfig.cmake
+	/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackSourceConfig.cmake /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -143,9 +143,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -771,6 +771,19 @@ cmjsoncpp/fast:
 .PHONY : cmjsoncpp/fast
 
 #=============================================================================
+# Target rules for targets named cmForm
+
+# Build rule for target.
+cmForm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmForm
+.PHONY : cmForm
+
+# fast build rule for target.
+cmForm/fast:
+	$(MAKE) -f Source/CursesDialog/form/CMakeFiles/cmForm.dir/build.make Source/CursesDialog/form/CMakeFiles/cmForm.dir/build
+.PHONY : cmForm/fast
+
+#=============================================================================
 # Target rules for targets named CMakeLib
 
 # Build rule for target.
@@ -808,6 +821,19 @@ CTestLib: cmake_check_build_system
 CTestLib/fast:
 	$(MAKE) -f Source/CMakeFiles/CTestLib.dir/build.make Source/CMakeFiles/CTestLib.dir/build
 .PHONY : CTestLib/fast
+
+#=============================================================================
+# Target rules for targets named ccmake
+
+# Build rule for target.
+ccmake: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ccmake
+.PHONY : ccmake
+
+# fast build rule for target.
+ccmake/fast:
+	$(MAKE) -f Source/CMakeFiles/ccmake.dir/build.make Source/CMakeFiles/ccmake.dir/build
+.PHONY : ccmake/fast
 
 #=============================================================================
 # Target rules for targets named cmake
@@ -1039,9 +1065,11 @@ help:
 	@echo "... cmlibarchive"
 	@echo "... cmexpat"
 	@echo "... cmjsoncpp"
+	@echo "... cmForm"
 	@echo "... CMakeLib"
 	@echo "... CPackLib"
 	@echo "... CTestLib"
+	@echo "... ccmake"
 	@echo "... cmake"
 	@echo "... cpack"
 	@echo "... ctest"

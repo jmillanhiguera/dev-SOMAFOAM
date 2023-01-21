@@ -29,19 +29,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake
+CMAKE_COMMAND = /home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake
 
 # The command to remove a file.
-RM = /data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E remove -f
+RM = /home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0
+CMAKE_SOURCE_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64
+CMAKE_BINARY_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64
 
 # Include any dependencies generated for this target.
 include programs/CMakeFiles/graphchk.dir/depend.make
@@ -54,17 +54,17 @@ include programs/CMakeFiles/graphchk.dir/flags.make
 
 programs/CMakeFiles/graphchk.dir/graphchk.c.o: programs/CMakeFiles/graphchk.dir/flags.make
 programs/CMakeFiles/graphchk.dir/graphchk.c.o: ../../programs/graphchk.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object programs/CMakeFiles/graphchk.dir/graphchk.c.o"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/graphchk.dir/graphchk.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/graphchk.c
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/graphchk.dir/graphchk.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/graphchk.c
 
 programs/CMakeFiles/graphchk.dir/graphchk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/graphchk.dir/graphchk.c.i"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/graphchk.c > CMakeFiles/graphchk.dir/graphchk.c.i
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/graphchk.c > CMakeFiles/graphchk.dir/graphchk.c.i
 
 programs/CMakeFiles/graphchk.dir/graphchk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/graphchk.dir/graphchk.c.s"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/graphchk.c -o CMakeFiles/graphchk.dir/graphchk.c.s
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/graphchk.c -o CMakeFiles/graphchk.dir/graphchk.c.s
 
 programs/CMakeFiles/graphchk.dir/graphchk.c.o.requires:
 .PHONY : programs/CMakeFiles/graphchk.dir/graphchk.c.o.requires
@@ -77,17 +77,17 @@ programs/CMakeFiles/graphchk.dir/graphchk.c.o.provides.build: programs/CMakeFile
 
 programs/CMakeFiles/graphchk.dir/io.c.o: programs/CMakeFiles/graphchk.dir/flags.make
 programs/CMakeFiles/graphchk.dir/io.c.o: ../../programs/io.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object programs/CMakeFiles/graphchk.dir/io.c.o"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/graphchk.dir/io.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/graphchk.dir/io.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c
 
 programs/CMakeFiles/graphchk.dir/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/graphchk.dir/io.c.i"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c > CMakeFiles/graphchk.dir/io.c.i
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c > CMakeFiles/graphchk.dir/io.c.i
 
 programs/CMakeFiles/graphchk.dir/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/graphchk.dir/io.c.s"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c -o CMakeFiles/graphchk.dir/io.c.s
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs/io.c -o CMakeFiles/graphchk.dir/io.c.s
 
 programs/CMakeFiles/graphchk.dir/io.c.o.requires:
 .PHONY : programs/CMakeFiles/graphchk.dir/io.c.o.requires
@@ -112,7 +112,7 @@ programs/graphchk: programs/CMakeFiles/graphchk.dir/build.make
 programs/graphchk: libmetis/libmetis.a
 programs/graphchk: programs/CMakeFiles/graphchk.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable graphchk"
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphchk.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphchk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 programs/CMakeFiles/graphchk.dir/build: programs/graphchk
@@ -123,10 +123,10 @@ programs/CMakeFiles/graphchk.dir/requires: programs/CMakeFiles/graphchk.dir/io.c
 .PHONY : programs/CMakeFiles/graphchk.dir/requires
 
 programs/CMakeFiles/graphchk.dir/clean:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && $(CMAKE_COMMAND) -P CMakeFiles/graphchk.dir/cmake_clean.cmake
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs && $(CMAKE_COMMAND) -P CMakeFiles/graphchk.dir/cmake_clean.cmake
 .PHONY : programs/CMakeFiles/graphchk.dir/clean
 
 programs/CMakeFiles/graphchk.dir/depend:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/programs /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs/CMakeFiles/graphchk.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/programs /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/programs/CMakeFiles/graphchk.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : programs/CMakeFiles/graphchk.dir/depend
 

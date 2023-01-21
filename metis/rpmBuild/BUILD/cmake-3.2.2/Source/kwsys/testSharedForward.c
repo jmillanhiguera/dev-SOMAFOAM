@@ -16,7 +16,7 @@
 # define CONFIG_DIR_PRE ""
 # define CONFIG_DIR_POST ""
 #endif
-#define cmsys_SHARED_FORWARD_DIR_BUILD "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys"
+#define cmsys_SHARED_FORWARD_DIR_BUILD "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys"
 #define cmsys_SHARED_FORWARD_PATH_BUILD "." CONFIG_DIR_POST
 #define cmsys_SHARED_FORWARD_PATH_INSTALL 0
 #define cmsys_SHARED_FORWARD_EXE_BUILD \

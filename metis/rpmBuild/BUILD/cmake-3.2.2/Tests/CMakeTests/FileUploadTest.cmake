@@ -1,16 +1,16 @@
-file(REMOVE_RECURSE "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads")
+file(REMOVE_RECURSE "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads")
 
-if(EXISTS "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads/file1.png")
+if(EXISTS "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads/file1.png")
   message(FATAL_ERROR "error: file1.png exists - should have been deleted")
 endif()
-if(EXISTS "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads/file2.png")
+if(EXISTS "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads/file2.png")
   message(FATAL_ERROR "error: file2.png exists - should have been deleted")
 endif()
 
-file(MAKE_DIRECTORY "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads")
+file(MAKE_DIRECTORY "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads")
 
-set(filename "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/FileDownloadInput.png")
-set(urlbase "file:///data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads")
+set(filename "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/FileDownloadInput.png")
+set(urlbase "file:///home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads")
 
 message(STATUS "FileUpload:1")
 file(UPLOAD
@@ -29,7 +29,7 @@ file(UPLOAD
   )
 
 execute_process(COMMAND ${CMAKE_COMMAND} -E md5sum
-  "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads/file1.png"
+  "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads/file1.png"
   OUTPUT_VARIABLE sum1
   OUTPUT_STRIP_TRAILING_WHITESPACE)
 if(NOT sum1 MATCHES "^d16778650db435bda3a8c3435c3ff5d1  .*/uploads/file1.png$")
@@ -37,7 +37,7 @@ if(NOT sum1 MATCHES "^d16778650db435bda3a8c3435c3ff5d1  .*/uploads/file1.png$")
 endif()
 
 execute_process(COMMAND ${CMAKE_COMMAND} -E md5sum
-  "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads/file2.png"
+  "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/uploads/file2.png"
   OUTPUT_VARIABLE sum2
   OUTPUT_STRIP_TRAILING_WHITESPACE)
 if(NOT sum2 MATCHES "^d16778650db435bda3a8c3435c3ff5d1  .*/uploads/file2.png$")

@@ -1,6 +1,6 @@
 set(CMAKE_CONFIGURATION_TYPES "")
-set(CTEST_SOURCE_DIRECTORY "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestConfig")
-set(CTEST_BINARY_DIRECTORY "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestConfig/Release-dashboard")
+set(CTEST_SOURCE_DIRECTORY "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestConfig")
+set(CTEST_BINARY_DIRECTORY "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestConfig/Release-dashboard")
 
 file(MAKE_DIRECTORY "${CTEST_BINARY_DIRECTORY}")
 

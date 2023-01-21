@@ -1,6 +1,7 @@
 {
 	emc->correct(voltageDict);
 
+	// semi-implicit solution for poisson's equation 
 	if (poissonEquationSolver == "semiImplicit")
 	{
 		volScalarField epsSource = epsilon0 + runTime.deltaTValue()*eCharge*mspm().potentialImpSource();

@@ -6,8 +6,8 @@ set(names
   )
 
 # Prepare binaries on which to operate.
-set(in "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ELF")
-set(out "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ELF-Out")
+set(in "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ELF")
+set(out "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ELF-Out")
 file(REMOVE_RECURSE "${out}")
 file(MAKE_DIRECTORY "${out}")
 foreach(f ${names})

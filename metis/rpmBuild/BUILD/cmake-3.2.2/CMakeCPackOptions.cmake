@@ -7,10 +7,10 @@ if(CPACK_GENERATOR MATCHES "NSIS")
 
   # set the install/unistall icon used for the installer itself
   # There is a bug in NSI that does not handle full unix paths properly.
-  set(CPACK_NSIS_MUI_ICON "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/Release\\CMakeLogo.ico")
-  set(CPACK_NSIS_MUI_UNIICON "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/Release\\CMakeLogo.ico")
+  set(CPACK_NSIS_MUI_ICON "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/Release\\CMakeLogo.ico")
+  set(CPACK_NSIS_MUI_UNIICON "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/Release\\CMakeLogo.ico")
   # set the package header icon for MUI
-  set(CPACK_PACKAGE_ICON "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/Release\\CMakeInstall.bmp")
+  set(CPACK_PACKAGE_ICON "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/Release\\CMakeInstall.bmp")
   # tell cpack to create links to the doc files
   set(CPACK_NSIS_MENU_LINKS
     "doc/cmake-3.2/html/index.html" "CMake Documentation"
@@ -29,7 +29,7 @@ endif()
 
 # include the cpack options for qt dialog if they exist
 # they might not if qt was not enabled for the build
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/QtDialog/QtDialogCPack.cmake" OPTIONAL)
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/QtDialog/QtDialogCPack.cmake" OPTIONAL)
 
 if(CPACK_GENERATOR MATCHES "IFW")
   # Installer configuration
@@ -37,7 +37,7 @@ if(CPACK_GENERATOR MATCHES "IFW")
   set(CPACK_IFW_PRODUCT_URL "http://www.cmake.org")
   
   set(CPACK_IFW_PACKAGE_WINDOW_ICON
-    "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/QtDialog/CMakeSetup128.png")
+    "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/QtDialog/CMakeSetup128.png")
   # Package configuration group
   set(CPACK_IFW_PACKAGE_GROUP CMake)
   # Group configuration
@@ -49,7 +49,7 @@ if(CPACK_GENERATOR MATCHES "IFW")
   set(CPACK_IFW_COMPONENT_GROUP_CMAKE_VERSION
     "3.2.2")
   set(CPACK_IFW_COMPONENT_GROUP_CMAKE_LICENSES
-    "CMake Copyright" "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Copyright.txt")
+    "CMake Copyright" "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Copyright.txt")
   
 endif()
 

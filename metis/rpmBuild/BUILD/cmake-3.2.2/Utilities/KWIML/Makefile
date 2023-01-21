@@ -33,19 +33,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
+RM = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_SOURCE_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_BINARY_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@echo "Run CPack packaging tool..."
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@echo "Run CPack packaging tool for source..."
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackSourceConfig.cmake /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CPackSourceConfig.cmake
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackSourceConfig.cmake /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -143,14 +143,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_progress_start /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/KWIML/CMakeFiles/progress.marks
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/KWIML/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles 0
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/KWIML/CMakeFiles/progress.marks
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/KWIML/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/KWIML/clean
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/KWIML/clean
 .PHONY : clean
 
 # The main clean target
@@ -159,17 +159,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/KWIML/preinstall
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/KWIML/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/KWIML/preinstall
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/KWIML/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -198,6 +198,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

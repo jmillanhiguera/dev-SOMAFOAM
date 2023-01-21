@@ -2,8 +2,8 @@ if (NOT TEST_SOURCE)
   set(TEST_SOURCE "${TEST}")
 endif ()
 
-set(source_dir "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeOnly/${TEST_SOURCE}")
-set(binary_dir "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeOnly/${TEST}-build")
+set(source_dir "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeOnly/${TEST_SOURCE}")
+set(binary_dir "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeOnly/${TEST}-build")
 file(REMOVE_RECURSE "${binary_dir}")
 file(MAKE_DIRECTORY "${binary_dir}")
 execute_process(

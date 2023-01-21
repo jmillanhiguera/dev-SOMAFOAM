@@ -10,10 +10,13 @@ Application
     plasmaSimFoam
 
 Description
-    plasma/dielectric
+    simple plasma solver tailored towards test of addition of features and 
+    debugging said features
 
 \*---------------------------------------------------------------------------*/
 
+// set up supporting libraries for simulation to run succesfully
+// all these libraries are linked in the Make folder 
 #include "fvCFD.H"
 #include "coupledFvMatrices.H"
 #include "regionCouplePolyPatch.H"
@@ -29,87 +32,47 @@ Description
 
 int main(int argc, char *argv[])
 {
+	// create fields and meshes required to simulation to run
 	#include "setRootCase.H"
 	#include "createTime.H"
 
 	#include "createPlasmaMesh.H"
 	#include "createFields.H"
 
+	// turn off debug switches so terminal printouts are not shown 
     lduMatrix::debug = 0;
-
 	coupledLduMatrix::debug = 0;
-
 	blockLduMatrix::debug = 0;
 
-	if (solutionDomain == "plasmaDielectric")
+	// Forces problems to be run exclusively as 1D
+	if (solutionDomain == "plasma" && mesh.nSolutionD() == 1)
 	{
-		#include "createDielectricMesh.H"
-		#include "createDielectricFields.H"
-
 		while (runTime.run())
 		{
-			#include "detachPatches.H"
+			// solve plasma equations 
 			#include "plasmaEqn.H"
-			#include "surfaceCharge.H"
 
+			// postFix increment. Will update after loop is completed 
 		    runTime++;
 
 		    Info<< "Simulation Time = " << runTime.timeName() << "s" << tab << "CPU Time = "
 		        << runTime.elapsedCpuTime() << "s" << endl;
 
-			#include "attachPatches.H"
-			#include "solvePoissonD.H"
-
-		    if (runTime.write() && restartCapabale)
-		    {    
-				thermo.Te().write();
-
-			    thermo.T().write();
-
-			    thermo.Tion().write();
-
-			    thermo.p().write();
-
-			    Phi.write();
-
-				E.write();
-
-				forAll(dielectricRegions, i)
-				{
-					PhiD[i].write();
-				}
-
-			    forAll(composition.Y(), i)
-			    {
-					volScalarField specN
-					(
-						IOobject
-						(
-							composition.species()[i],
-							runTime.timeName(),
-							mesh
-						),
-						mspm().N(i),
-						Y[i].boundaryField().types()
-					);
-					specN.write();
-			    }
-		    }
-		}
-	}
-	else if (solutionDomain == "plasma")
-	{
-		while (runTime.run())
-		{
-			#include "plasmaEqn.H"
-
-		    runTime++;
-
-		    Info<< "Simulation Time = " << runTime.timeName() << "s" << tab << "CPU Time = "
-		        << runTime.elapsedCpuTime() << "s" << endl;
-
+			// solve poisson equation  
 			#include "solvePoisson.H"
 
+	        // set up new time step by matching electron flux of the system to a user specified courant number  
+		    scalar Cofactor = mspm().divFe();
+		    scalar deltaTNew = MaxCo/(Cofactor+1e-10);
+		    deltaTNew = min(deltaTNew,deltaTMax);
+		    deltaTNew = max(deltaTNew,deltaTMin);
+		    runTime.setDeltaT(deltaTNew);
+
+		    // print obtained time step and courant number into terminal 
+		    Info << "New timestep = " << runTime.deltaTValue() << endl;
+		    Info << "Courant = " << Cofactor*runTime.deltaTValue() << endl;
+
+		    // output data in terms of scalars and vector files 
 		    if (runTime.write() && restartCapabale)
 		    {		    
 				thermo.Te().write();
@@ -139,6 +102,12 @@ int main(int argc, char *argv[])
 				}
 		    }
 		}
+	}
+	else
+	{
+		Info << "plasmaSimFoam is tailored towards development and testing" << endl;
+		Info << "of features, focusing itself on 1D. Please use other solvers" << endl;
+		Info << "for study of plasma phenomena" << endl;
 	}
 
     return(0);

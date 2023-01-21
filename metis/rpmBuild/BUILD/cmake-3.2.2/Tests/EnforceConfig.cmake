@@ -7,7 +7,7 @@ endif()
 
 # Choose a configuration that was built if none is given.
 if(NOT CTEST_CONFIGURATION_TYPE)
-  set(CTEST_CMD "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/bin/ctest")
+  set(CTEST_CMD "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/bin/ctest")
   get_filename_component(CTEST_DIR "${CTEST_CMD}" PATH)
   get_filename_component(CTEST_EXE "${CTEST_CMD}" NAME)
   foreach(cfg Release Debug MinSizeRel RelWithDebInfo)
@@ -27,5 +27,5 @@ endif()
 # But provide original ENV{HOME} value in ENV{CTEST_REAL_HOME} for tests that
 # need access to the real HOME directory.
 set(ENV{CTEST_REAL_HOME} "$ENV{HOME}")
-set(ENV{HOME} "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeFiles/TestHome")
+set(ENV{HOME} "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeFiles/TestHome")
 

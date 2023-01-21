@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/testProcess.c" "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/CMakeFiles/cmsysTestProcess.dir/testProcess.c.o"
+  "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/testProcess.c" "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/CMakeFiles/cmsysTestProcess.dir/testProcess.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_INCLUDE_TRANSFORMS
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/CMakeFiles/cmsys_c.dir/DependInfo.cmake"
+  "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/CMakeFiles/cmsys_c.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

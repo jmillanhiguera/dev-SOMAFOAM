@@ -26,19 +26,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
+RM = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_SOURCE_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_BINARY_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 # Utility rule file for ContinuousSubmit.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
 include CMakeFiles/ContinuousSubmit.dir/progress.make
 
 CMakeFiles/ContinuousSubmit:
-	CMAKE_CTEST_COMMAND-NOTFOUND -D ContinuousSubmit
+	/usr/bin/ctest -D ContinuousSubmit
 
 ContinuousSubmit: CMakeFiles/ContinuousSubmit
 ContinuousSubmit: CMakeFiles/ContinuousSubmit.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 CMakeFiles/ContinuousSubmit.dir/depend:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousSubmit.dir/depend
 

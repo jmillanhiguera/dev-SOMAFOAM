@@ -1,4 +1,4 @@
-The system is: Linux - 3.10.0-957.10.1.el7.x86_64 - x86_64
+The system is: Linux - 5.4.0-135-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/gcc 
 Build flags: -m64;-fPIC
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/3.2.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/3.2.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/g++ 
@@ -23,141 +23,166 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/3.2.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/3.2.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec425787795/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec425787795.dir/build.make CMakeFiles/cmTryCompileExec425787795.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec425787795.dir/testCCompiler.c.o
-/usr/bin/gcc   -m64 -fPIC     -o CMakeFiles/cmTryCompileExec425787795.dir/testCCompiler.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec425787795
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec425787795.dir/link.txt --verbose=1
-/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec425787795.dir/testCCompiler.c.o  -o cmTryCompileExec425787795 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3090742800/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3090742800.dir/build.make CMakeFiles/cmTryCompileExec3090742800.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3090742800.dir/testCCompiler.c.o
+/usr/bin/gcc   -m64 -fPIC     -o CMakeFiles/cmTryCompileExec3090742800.dir/testCCompiler.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3090742800
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3090742800.dir/link.txt --verbose=1
+/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec3090742800.dir/testCCompiler.c.o  -o cmTryCompileExec3090742800 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1173064028/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1173064028.dir/build.make CMakeFiles/cmTryCompileExec1173064028.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1173064028.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc   -m64 -fPIC     -o CMakeFiles/cmTryCompileExec1173064028.dir/CMakeCCompilerABI.c.o   -c /data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec1173064028
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1173064028.dir/link.txt --verbose=1
-/usr/bin/gcc  -m64 -fPIC     -m64 -v CMakeFiles/cmTryCompileExec1173064028.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1173064028 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3674233152/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3674233152.dir/build.make CMakeFiles/cmTryCompileExec3674233152.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3674233152.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -m64 -fPIC     -o CMakeFiles/cmTryCompileExec3674233152.dir/CMakeCCompilerABI.c.o   -c /home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3674233152
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3674233152.dir/link.txt --verbose=1
+/usr/bin/gcc  -m64 -fPIC     -m64 -v CMakeFiles/cmTryCompileExec3674233152.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3674233152 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
-COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
-Target: x86_64-redhat-linux
-Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
-COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec1173064028' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1173064028 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec1173064028.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec3674233152' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN8lfBN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTryCompileExec3674233152 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTryCompileExec3674233152.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec3674233152' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1173064028/fast"]
-  ignore line: [gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1173064028.dir/build.make CMakeFiles/cmTryCompileExec1173064028.dir/build]
-  ignore line: [gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
-  ignore line: [/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec1173064028.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc   -m64 -fPIC     -o CMakeFiles/cmTryCompileExec1173064028.dir/CMakeCCompilerABI.c.o   -c /data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec1173064028]
-  ignore line: [/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1173064028.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc  -m64 -fPIC     -m64 -v CMakeFiles/cmTryCompileExec1173064028.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1173064028 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3674233152/fast"]
+  ignore line: [make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3674233152.dir/build.make CMakeFiles/cmTryCompileExec3674233152.dir/build]
+  ignore line: [make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3674233152.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -m64 -fPIC     -o CMakeFiles/cmTryCompileExec3674233152.dir/CMakeCCompilerABI.c.o   -c /home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3674233152]
+  ignore line: [/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3674233152.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc  -m64 -fPIC     -m64 -v CMakeFiles/cmTryCompileExec3674233152.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3674233152 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
-  ignore line: [Target: x86_64-redhat-linux]
-  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec1173064028' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1173064028 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec1173064028.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
-    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec3674233152' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN8lfBN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTryCompileExec3674233152 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTryCompileExec3674233152.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccN8lfBN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [--build-id] ==> ignore
-    arg [--no-add-needed] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1173064028] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTryCompileExec1173064028.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTryCompileExec3674233152] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTryCompileExec3674233152.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
+    arg [--pop-state] ==> ignore
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
   implicit libs: [c]
-  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3753535800/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3753535800.dir/build.make CMakeFiles/cmTryCompileExec3753535800.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3753535800.dir/feature_tests.c.o
-/usr/bin/gcc   -m64 -fPIC     -std=c11 -o CMakeFiles/cmTryCompileExec3753535800.dir/feature_tests.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec3753535800
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3753535800.dir/link.txt --verbose=1
-/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec3753535800.dir/feature_tests.c.o  -o cmTryCompileExec3753535800 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3309592307/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3309592307.dir/build.make CMakeFiles/cmTryCompileExec3309592307.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3309592307.dir/feature_tests.c.o
+/usr/bin/gcc   -m64 -fPIC     -std=c11 -o CMakeFiles/cmTryCompileExec3309592307.dir/feature_tests.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3309592307
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3309592307.dir/link.txt --verbose=1
+/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec3309592307.dir/feature_tests.c.o  -o cmTryCompileExec3309592307 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -167,20 +192,20 @@ gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec511781464/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec511781464.dir/build.make CMakeFiles/cmTryCompileExec511781464.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec511781464.dir/feature_tests.c.o
-/usr/bin/gcc   -m64 -fPIC     -std=c99 -o CMakeFiles/cmTryCompileExec511781464.dir/feature_tests.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec511781464
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec511781464.dir/link.txt --verbose=1
-/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec511781464.dir/feature_tests.c.o  -o cmTryCompileExec511781464 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec712386969/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec712386969.dir/build.make CMakeFiles/cmTryCompileExec712386969.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec712386969.dir/feature_tests.c.o
+/usr/bin/gcc   -m64 -fPIC     -std=c99 -o CMakeFiles/cmTryCompileExec712386969.dir/feature_tests.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec712386969
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec712386969.dir/link.txt --verbose=1
+/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec712386969.dir/feature_tests.c.o  -o cmTryCompileExec712386969 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -190,20 +215,20 @@ gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3312396640/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3312396640.dir/build.make CMakeFiles/cmTryCompileExec3312396640.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3312396640.dir/feature_tests.c.o
-/usr/bin/gcc   -m64 -fPIC     -std=c90 -o CMakeFiles/cmTryCompileExec3312396640.dir/feature_tests.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec3312396640
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3312396640.dir/link.txt --verbose=1
-/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec3312396640.dir/feature_tests.c.o  -o cmTryCompileExec3312396640 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1023334831/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1023334831.dir/build.make CMakeFiles/cmTryCompileExec1023334831.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1023334831.dir/feature_tests.c.o
+/usr/bin/gcc   -m64 -fPIC     -std=c90 -o CMakeFiles/cmTryCompileExec1023334831.dir/feature_tests.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1023334831
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1023334831.dir/link.txt --verbose=1
+/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec1023334831.dir/feature_tests.c.o  -o cmTryCompileExec1023334831 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,96 +236,116 @@ gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1242989522/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1242989522.dir/build.make CMakeFiles/cmTryCompileExec1242989522.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1242989522.dir/testCXXCompiler.cxx.o
-/usr/bin/g++    -m64 -fPIC     -o CMakeFiles/cmTryCompileExec1242989522.dir/testCXXCompiler.cxx.o -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec1242989522
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1242989522.dir/link.txt --verbose=1
-/usr/bin/g++   -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec1242989522.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1242989522 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1885649936/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1885649936.dir/build.make CMakeFiles/cmTryCompileExec1885649936.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1885649936.dir/testCXXCompiler.cxx.o
+/usr/bin/g++    -m64 -fPIC     -o CMakeFiles/cmTryCompileExec1885649936.dir/testCXXCompiler.cxx.o -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1885649936
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1885649936.dir/link.txt --verbose=1
+/usr/bin/g++   -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec1885649936.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1885649936 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec835709244/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec835709244.dir/build.make CMakeFiles/cmTryCompileExec835709244.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec835709244.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++    -m64 -fPIC     -o CMakeFiles/cmTryCompileExec835709244.dir/CMakeCXXCompilerABI.cpp.o -c /data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec835709244
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec835709244.dir/link.txt --verbose=1
-/usr/bin/g++   -m64 -fPIC     -m64 -v CMakeFiles/cmTryCompileExec835709244.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec835709244 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3831537461/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3831537461.dir/build.make CMakeFiles/cmTryCompileExec3831537461.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3831537461.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++    -m64 -fPIC     -o CMakeFiles/cmTryCompileExec3831537461.dir/CMakeCXXCompilerABI.cpp.o -c /home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3831537461
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3831537461.dir/link.txt --verbose=1
+/usr/bin/g++   -m64 -fPIC     -m64 -v CMakeFiles/cmTryCompileExec3831537461.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3831537461 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
-COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
-Target: x86_64-redhat-linux
-Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
-COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec835709244' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec835709244 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec835709244.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec3831537461' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNemwV5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTryCompileExec3831537461 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTryCompileExec3831537461.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec3831537461' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTryCompileExec835709244/fast"]
-  ignore line: [gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec835709244.dir/build.make CMakeFiles/cmTryCompileExec835709244.dir/build]
-  ignore line: [gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
-  ignore line: [/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec835709244.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++    -m64 -fPIC     -o CMakeFiles/cmTryCompileExec835709244.dir/CMakeCXXCompilerABI.cpp.o -c /data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec835709244]
-  ignore line: [/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec835709244.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++   -m64 -fPIC     -m64 -v CMakeFiles/cmTryCompileExec835709244.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec835709244 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3831537461/fast"]
+  ignore line: [make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3831537461.dir/build.make CMakeFiles/cmTryCompileExec3831537461.dir/build]
+  ignore line: [make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3831537461.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++    -m64 -fPIC     -o CMakeFiles/cmTryCompileExec3831537461.dir/CMakeCXXCompilerABI.cpp.o -c /home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3831537461]
+  ignore line: [/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3831537461.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++   -m64 -fPIC     -m64 -v CMakeFiles/cmTryCompileExec3831537461.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3831537461 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
-  ignore line: [Target: x86_64-redhat-linux]
-  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec835709244' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec835709244 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec835709244.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
-    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-m64' '-v' '-o' 'cmTryCompileExec3831537461' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNemwV5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTryCompileExec3831537461 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTryCompileExec3831537461.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNemwV5.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [--build-id] ==> ignore
-    arg [--no-add-needed] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec835709244] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTryCompileExec835709244.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTryCompileExec3831537461] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTryCompileExec3831537461.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -308,60 +353,63 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
-Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1058135627/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1058135627.dir/build.make CMakeFiles/cmTryCompileExec1058135627.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1058135627.dir/feature_tests.cxx.o
-/usr/bin/g++    -m64 -fPIC     -std=c++1y -o CMakeFiles/cmTryCompileExec1058135627.dir/feature_tests.cxx.o -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec1058135627
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1058135627.dir/link.txt --verbose=1
-/usr/bin/g++   -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec1058135627.dir/feature_tests.cxx.o  -o cmTryCompileExec1058135627 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec187114155/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec187114155.dir/build.make CMakeFiles/cmTryCompileExec187114155.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec187114155.dir/feature_tests.cxx.o
+/usr/bin/g++    -m64 -fPIC     -std=c++14 -o CMakeFiles/cmTryCompileExec187114155.dir/feature_tests.cxx.o -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec187114155
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec187114155.dir/link.txt --verbose=1
+/usr/bin/g++   -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec187114155.dir/feature_tests.cxx.o  -o cmTryCompileExec187114155 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
     Feature record: CXX_FEATURE:1cxx_alignas
     Feature record: CXX_FEATURE:1cxx_alignof
     Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
     Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_binary_literals
     Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
     Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
     Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
     Feature record: CXX_FEATURE:1cxx_default_function_template_args
     Feature record: CXX_FEATURE:1cxx_defaulted_functions
     Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
     Feature record: CXX_FEATURE:1cxx_delegating_constructors
     Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_digit_separators
     Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
     Feature record: CXX_FEATURE:1cxx_explicit_conversions
     Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
@@ -369,11 +417,11 @@ gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.
     Feature record: CXX_FEATURE:1cxx_final
     Feature record: CXX_FEATURE:1cxx_func_identifier
     Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
     Feature record: CXX_FEATURE:1cxx_inheriting_constructors
     Feature record: CXX_FEATURE:1cxx_inline_namespaces
     Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
     Feature record: CXX_FEATURE:1cxx_local_type_template_args
     Feature record: CXX_FEATURE:1cxx_long_long_type
     Feature record: CXX_FEATURE:1cxx_noexcept
@@ -383,8 +431,8 @@ gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
     Feature record: CXX_FEATURE:1cxx_sizeof_member
@@ -397,26 +445,26 @@ gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
     Feature record: CXX_FEATURE:1cxx_unrestricted_unions
     Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2915226957/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2915226957.dir/build.make CMakeFiles/cmTryCompileExec2915226957.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2915226957.dir/feature_tests.cxx.o
-/usr/bin/g++    -m64 -fPIC     -std=c++11 -o CMakeFiles/cmTryCompileExec2915226957.dir/feature_tests.cxx.o -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec2915226957
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2915226957.dir/link.txt --verbose=1
-/usr/bin/g++   -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec2915226957.dir/feature_tests.cxx.o  -o cmTryCompileExec2915226957 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec121942540/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec121942540.dir/build.make CMakeFiles/cmTryCompileExec121942540.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec121942540.dir/feature_tests.cxx.o
+/usr/bin/g++    -m64 -fPIC     -std=c++11 -o CMakeFiles/cmTryCompileExec121942540.dir/feature_tests.cxx.o -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec121942540
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec121942540.dir/link.txt --verbose=1
+/usr/bin/g++   -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec121942540.dir/feature_tests.cxx.o  -o cmTryCompileExec121942540 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -479,20 +527,20 @@ gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec491013452/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec491013452.dir/build.make CMakeFiles/cmTryCompileExec491013452.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec491013452.dir/feature_tests.cxx.o
-/usr/bin/g++    -m64 -fPIC     -std=c++98 -o CMakeFiles/cmTryCompileExec491013452.dir/feature_tests.cxx.o -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec491013452
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec491013452.dir/link.txt --verbose=1
-/usr/bin/g++   -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec491013452.dir/feature_tests.cxx.o  -o cmTryCompileExec491013452 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2016380651/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2016380651.dir/build.make CMakeFiles/cmTryCompileExec2016380651.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2016380651.dir/feature_tests.cxx.o
+/usr/bin/g++    -m64 -fPIC     -std=c++98 -o CMakeFiles/cmTryCompileExec2016380651.dir/feature_tests.cxx.o -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2016380651
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2016380651.dir/link.txt --verbose=1
+/usr/bin/g++   -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec2016380651.dir/feature_tests.cxx.o  -o cmTryCompileExec2016380651 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,36 +601,36 @@ gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file execinfo.h exists passed with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2926059557/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2926059557.dir/build.make CMakeFiles/cmTryCompileExec2926059557.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2926059557.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -m64 -fPIC     -o CMakeFiles/cmTryCompileExec2926059557.dir/CheckIncludeFile.c.o   -c /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec2926059557
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2926059557.dir/link.txt --verbose=1
-/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec2926059557.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2926059557 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1410836635/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1410836635.dir/build.make CMakeFiles/cmTryCompileExec1410836635.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1410836635.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -m64 -fPIC     -o CMakeFiles/cmTryCompileExec1410836635.dir/CheckIncludeFile.c.o   -c /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1410836635
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1410836635.dir/link.txt --verbose=1
+/usr/bin/gcc  -m64 -fPIC     -m64  CMakeFiles/cmTryCompileExec1410836635.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1410836635 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 
 Determining if the function getline exists passed with the following output:
-Change Dir: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2187648342/fast"
-gmake[1]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2187648342.dir/build.make CMakeFiles/cmTryCompileExec2187648342.dir/build
-gmake[2]: Entering directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2187648342.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -m64 -fPIC  -DCHECK_FUNCTION_EXISTS=getline   -o CMakeFiles/cmTryCompileExec2187648342.dir/CheckFunctionExists.c.o   -c /data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2187648342
-/data/vayyaswamy/ltps/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2187648342.dir/link.txt --verbose=1
-/usr/bin/gcc  -m64 -fPIC  -DCHECK_FUNCTION_EXISTS=getline   -m64  CMakeFiles/cmTryCompileExec2187648342.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2187648342 -rdynamic 
-gmake[2]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4093161817/fast"
+make[1]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4093161817.dir/build.make CMakeFiles/cmTryCompileExec4093161817.dir/build
+make[2]: Entering directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_progress_report /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4093161817.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -m64 -fPIC  -DCHECK_FUNCTION_EXISTS=getline   -o CMakeFiles/cmTryCompileExec4093161817.dir/CheckFunctionExists.c.o   -c /home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4093161817
+/home/gpp/dev-SOMAFOAM/metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4093161817.dir/link.txt --verbose=1
+/usr/bin/gcc  -m64 -fPIC  -DCHECK_FUNCTION_EXISTS=getline   -m64  CMakeFiles/cmTryCompileExec4093161817.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4093161817 -rdynamic 
+make[2]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/metis-5.1.0/build/Linux-x86_64/CMakeFiles/CMakeTmp'
 
 

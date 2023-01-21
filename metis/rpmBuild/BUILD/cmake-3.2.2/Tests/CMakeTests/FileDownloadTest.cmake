@@ -1,5 +1,5 @@
-set(url "file:///data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/FileDownloadInput.png")
-set(dir "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/downloads")
+set(url "file:///home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/FileDownloadInput.png")
+set(dir "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/downloads")
 
 message(STATUS "FileDownload:1")
 file(DOWNLOAD

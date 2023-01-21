@@ -26,19 +26,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
+RM = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_SOURCE_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_BINARY_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 # Utility rule file for ExperimentalStart.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
 include CMakeFiles/ExperimentalStart.dir/progress.make
 
 CMakeFiles/ExperimentalStart:
-	CMAKE_CTEST_COMMAND-NOTFOUND -D ExperimentalStart
+	/usr/bin/ctest -D ExperimentalStart
 
 ExperimentalStart: CMakeFiles/ExperimentalStart
 ExperimentalStart: CMakeFiles/ExperimentalStart.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 CMakeFiles/ExperimentalStart.dir/depend:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalStart.dir/depend
 

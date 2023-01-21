@@ -1,4 +1,4 @@
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
 
 get_property(FOO_BRIEF GLOBAL PROPERTY FOO BRIEF_DOCS)
 get_property(FOO_FULL GLOBAL PROPERTY FOO FULL_DOCS)
@@ -17,8 +17,8 @@ if(NOT result STREQUAL "alpha")
   message(SEND_ERROR "bad value of VARIABLE PROPERTY test_var: got '${result}' instead of 'alpha'")
 endif()
 
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/../RegexEscapeString.cmake")
-REGEX_ESCAPE_STRING(CTEST_ESCAPED_CMAKE_CURRENT_SOURCE_DIR "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/../RegexEscapeString.cmake")
+REGEX_ESCAPE_STRING(CTEST_ESCAPED_CMAKE_CURRENT_SOURCE_DIR "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests")
 
 set(Missing-Argument-RESULT 1)
 set(Missing-Argument-STDERR ".*CMake Error at (${CTEST_ESCAPED_CMAKE_CURRENT_SOURCE_DIR}/)?GetProperty-Missing-Argument.cmake:1 \\(get_property\\):.*get_property called with incorrect number of arguments.*")

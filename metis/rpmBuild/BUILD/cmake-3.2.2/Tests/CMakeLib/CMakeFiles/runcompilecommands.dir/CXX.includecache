@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeLib/run_compile_commands.cxx
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeLib/run_compile_commands.cxx
 cmSystemTools.h
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeLib/cmSystemTools.h
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeLib/cmSystemTools.h
 
 Source/cmConfigure.h
 

@@ -815,13 +815,7 @@ plasmaSimFoam.dep: $(WM_PROJECT_DIR)/src/foam/lnInclude/setRootCase.H
 plasmaSimFoam.dep: $(WM_PROJECT_DIR)/src/foam/lnInclude/createTime.H
 plasmaSimFoam.dep: createPlasmaMesh.H
 plasmaSimFoam.dep: createFields.H
-plasmaSimFoam.dep: createDielectricMesh.H
-plasmaSimFoam.dep: createDielectricFields.H
-plasmaSimFoam.dep: detachPatches.H
 plasmaSimFoam.dep: plasmaEqn.H
-plasmaSimFoam.dep: surfaceCharge.H
-plasmaSimFoam.dep: attachPatches.H
-plasmaSimFoam.dep: solvePoissonD.H
 plasmaSimFoam.dep: solvePoisson.H
 $(OBJECTS_DIR)/plasmaSimFoam.o: $(EXE_DEP)
 $(OBJECTS_DIR)/plasmaSimFoam.o:

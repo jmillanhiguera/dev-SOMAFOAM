@@ -181,11 +181,11 @@ typedef uint64_t uintmax_t;
 /* #undef uintptr_t */
 
 
-/* #undef HAVE_RESTRICT */
+#define HAVE_RESTRICT
 #define HAVE___RESTRICT
 
-#define HAVE_INLINE
-#define HAVE___INLINE
+/* #undef HAVE_INLINE */
+/* #undef HAVE___INLINE */
 
 #ifndef HAVE_RESTRICT
 #  ifdef HAVE___RESTRICT

@@ -1,8 +1,8 @@
-# Install script for directory: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeLib/PseudoMemcheck
+# Install script for directory: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeLib/PseudoMemcheck
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/data/vayyaswamy/ltps/etc/../metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt")
+  set(CMAKE_INSTALL_PREFIX "/home/gpp/dev-SOMAFOAM/etc/../metis/packages/cmake-3.2.2/platforms/linux64GccDPOpt")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,12 +29,12 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeLib/PseudoMemcheck/NoLog/cmake_install.cmake")
+  include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeLib/PseudoMemcheck/NoLog/cmake_install.cmake")
 
 endif()
 

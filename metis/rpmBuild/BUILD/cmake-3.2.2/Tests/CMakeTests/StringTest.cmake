@@ -37,7 +37,7 @@ set(TIMESTAMP-IncompleteSpecifier-STDERR "~foobar%~")
 set(TIMESTAMP-AllSpecifiers-RESULT 0)
 set(TIMESTAMP-AllSpecifiers-STDERR "~[0-9]+(;[0-9]+)*~")
 
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
 check_cmake_test(String
   MD5-BadArg1
   MD5-BadArg2
@@ -62,10 +62,10 @@ check_cmake_test(String
 
 # Execute each test listed in StringTestScript.cmake:
 #
-set(scriptname "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/StringTestScript.cmake")
+set(scriptname "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/StringTestScript.cmake")
 set(number_of_tests_expected 70)
 
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ExecuteScriptTests.cmake")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ExecuteScriptTests.cmake")
 execute_all_script_tests(${scriptname} number_of_tests_executed)
 
 # And verify that number_of_tests_executed is at least as many as we know

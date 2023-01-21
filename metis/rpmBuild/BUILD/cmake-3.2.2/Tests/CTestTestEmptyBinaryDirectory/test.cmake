@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 2.8.12)
 
 set(CTEST_RUN_CURRENT_SCRIPT 0)
 
-set(CTEST_SOURCE_DIRECTORY "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTestEmptyBinaryDirectory")
-set(CTEST_BINARY_DIRECTORY "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTestEmptyBinaryDirectory")
+set(CTEST_SOURCE_DIRECTORY "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTestEmptyBinaryDirectory")
+set(CTEST_BINARY_DIRECTORY "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTestEmptyBinaryDirectory")
 
 # make sure ctest does not remove directories without a CMakeCache.txt in it
 set(EMPTY_BINARY_DIR "${CTEST_BINARY_DIRECTORY}/empty_binary_dir")

@@ -45,7 +45,7 @@ set(TIMESTAMP-NotBogus-STDERR "all timestamps match")
 set(TIMESTAMP-Works-RESULT 0)
 set(TIMESTAMP-Works-STDERR "~[0-9]*-[01][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-6][0-9]Z~")
 
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
 check_cmake_test(File
   Copy-BadArg
   Copy-BadPerm
@@ -79,10 +79,10 @@ endif()
 
 # Also execute each test listed in FileTestScript.cmake:
 #
-set(scriptname "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/FileTestScript.cmake")
+set(scriptname "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/FileTestScript.cmake")
 set(number_of_tests_expected 62)
 
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ExecuteScriptTests.cmake")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/ExecuteScriptTests.cmake")
 execute_all_script_tests(${scriptname} number_of_tests_executed)
 
 # And verify that number_of_tests_executed is at least as many as we know

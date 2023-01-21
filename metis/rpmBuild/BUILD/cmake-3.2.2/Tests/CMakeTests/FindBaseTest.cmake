@@ -1,4 +1,4 @@
-set(MY_SOURCE_DIR "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests")
+set(MY_SOURCE_DIR "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests")
 
 # The find_* commands do path normalization so we should do so too
 # before comparing results.

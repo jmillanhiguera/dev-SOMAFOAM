@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.12)
 set(CTEST_PROJECT_NAME "SmallAndFast")
-set(CTEST_SOURCE_DIRECTORY "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTest/SmallAndFast")
-set(CTEST_BINARY_DIRECTORY "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestCoverageCollectGCOV")
+set(CTEST_SOURCE_DIRECTORY "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestTest/SmallAndFast")
+set(CTEST_BINARY_DIRECTORY "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestCoverageCollectGCOV")
 set(CTEST_CMAKE_GENERATOR "Unix Makefiles")
 ctest_start(Experimental)
 ctest_configure()
@@ -19,7 +19,7 @@ ctest_coverage_collect_gcov(
   SOURCE "${CTEST_SOURCE_DIRECTORY}"
   BUILD "${CTEST_BINARY_DIRECTORY}"
   GCOV_COMMAND "${CMAKE_COMMAND}"
-  GCOV_OPTIONS -P "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestCoverageCollectGCOV/fakegcov.cmake")
+  GCOV_OPTIONS -P "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestCoverageCollectGCOV/fakegcov.cmake")
 
 execute_process(COMMAND
       ${CMAKE_COMMAND} -E tar tf ${tar_file}

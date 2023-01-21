@@ -2,17 +2,17 @@ cmake_minimum_required(VERSION 2.4)
 
 # This is a template for the CTest script for this system
 
-set(CTEST_SITE                          "guru.ucmerced.edu")
+set(CTEST_SITE                          "gpp-Strix-17-GL703GE")
 set(CTEST_BUILD_NAME                    "Linux-g++")
 
 # ---
-set(CTEST_SOURCE_DIRECTORY              "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2")
-set(CTEST_BINARY_DIRECTORY              "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2")
+set(CTEST_SOURCE_DIRECTORY              "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2")
+set(CTEST_BINARY_DIRECTORY              "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2")
 set(CTEST_UPDATE_COMMAND                "")
 set(CTEST_UPDATE_OPTIONS                "")
 set(CTEST_CMAKE_GENERATOR               "Unix Makefiles")
 set(CTEST_BUILD_CONFIGURATION           "Release")
-#set(CTEST_MEMORYCHECK_COMMAND           "/usr/bin/valgrind")
+#set(CTEST_MEMORYCHECK_COMMAND           "MEMORYCHECK_COMMAND-NOTFOUND")
 #set(CTEST_MEMORYCHECK_SUPPRESSIONS_FILE "")
 #set(CTEST_MEMORYCHECK_COMMAND_OPTIONS   "")
 #set(CTEST_COVERAGE_COMMAND              "/usr/bin/gcov")

@@ -4,5 +4,5 @@
 
 
 # Configuration directories and files
-SourceDirectory: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/MumpsCoverage
-BuildDirectory: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/MumpsCacheCoverage
+SourceDirectory: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/MumpsCoverage
+BuildDirectory: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/MumpsCacheCoverage

@@ -4,5 +4,5 @@
 
 
 # Configuration directories and files
-SourceDirectory: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/JavascriptCoverage
-BuildDirectory: /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/JavascriptCoverage
+SourceDirectory: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/JavascriptCoverage
+BuildDirectory: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/JavascriptCoverage

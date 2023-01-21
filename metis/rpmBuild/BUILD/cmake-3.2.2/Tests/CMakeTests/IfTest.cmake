@@ -7,8 +7,8 @@ foreach(_arg "" 0 1 2 ${TRUE_NAMES} ${FALSE_NAMES})
   set(VAR_${_arg} "${_arg}")
 endforeach()
 
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/../RegexEscapeString.cmake")
-REGEX_ESCAPE_STRING(CTEST_ESCAPED_CMAKE_CURRENT_SOURCE_DIR "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/../RegexEscapeString.cmake")
+REGEX_ESCAPE_STRING(CTEST_ESCAPED_CMAKE_CURRENT_SOURCE_DIR "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests")
 
 macro(test_vars _old)
   # Variables set to false or not set.
@@ -163,7 +163,7 @@ test_vars("")
 set(Invalid-Argument-RESULT 1)
 set(Invalid-Argument-STDERR ".*CMake Error at (${CTEST_ESCAPED_CMAKE_CURRENT_SOURCE_DIR}/)?If-Invalid-Argument.cmake:1 \\(if\\):.*Unknown arguments specified.*")
 
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
 check_cmake_test(If
   Invalid-Argument
 )

@@ -8,7 +8,7 @@ set(TOP "${TOP}/CTest UpdateGIT")
 set(UPDATE_EXTRA Updated{module})
 
 # Include code common to all update tests.
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestUpdateCommon.cmake")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CTestUpdateCommon.cmake")
 
 #-----------------------------------------------------------------------------
 # Report git tools in use.
@@ -27,7 +27,7 @@ message("Creating test directory...")
 init_testing()
 
 if(UNIX)
-  set(src "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests")
+  set(src "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests")
   configure_file(${src}/CTestUpdateGIT.sh.in ${TOP}/git.sh @ONLY)
   set(GIT ${TOP}/git.sh)
 endif()

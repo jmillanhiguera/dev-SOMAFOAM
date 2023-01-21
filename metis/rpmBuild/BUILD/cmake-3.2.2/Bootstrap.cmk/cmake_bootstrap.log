@@ -1,5 +1,5 @@
 Try: gcc
-Line: gcc -m64 -fPIC cmake_bootstrap_396386_test.c -o cmake_bootstrap_396386_test
+Line: gcc -m64 -fPIC cmake_bootstrap_17481_test.c -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 
 #ifdef __cplusplus
@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
 1
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST1 cmake_bootstrap_396386_test.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST1 cmake_bootstrap_17481_test.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 
 #if defined(TEST1)
@@ -56,11 +56,14 @@ int main()
 1
 Test succeded
 Try: gmake
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/bootstrap: 605: /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/bootstrap: gmake: not found
+gmake does not work
+Try: make
 "gcc" -m64 -m64 -fPIC -o test test.c
 1
-gmake works
+make works
 Try: g++
-Line: g++ -m64 -fPIC cmake_bootstrap_396386_test.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC cmake_bootstrap_17481_test.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 
 #if defined(__GNUC__) && !defined(__INTEL_COMPILER)
@@ -72,7 +75,7 @@ int main() { std::cout << "This is GNU" << std::endl; return 0;}
 This is GNU
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_SETENV /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_SETENV /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -763,7 +766,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_UNSETENV /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_UNSETENV /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -1454,7 +1457,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -2143,13 +2146,17 @@ void f(std ::wstring*) {}
 int main() { return 0; }
 #endif
 ------------------------------------------
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function 'int main()':
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:450:13: error: 'environ' was not declared in this scope
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function 'int main()':
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:450:13: error: 'environ' was not declared in this scope
    char* e = environ[0];
-             ^
+             ^~~~~~~
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:450:13: note: suggested alternative: 'union'
+   char* e = environ[0];
+             ^~~~~~~
+             union
 Test failed to compile
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAVE_STD /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAVE_STD /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -2840,7 +2847,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_IOS_USE_ANSI /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_IOS_USE_ANSI /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -3531,7 +3538,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_IOS_HAVE_STD /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_IOS_HAVE_STD /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -4222,7 +4229,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_IOS_USE_SSTREAM /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_IOS_USE_SSTREAM /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -4913,7 +4920,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_STRING_HAVE_NEQ_CHAR -DKWSYS_STL_HAVE_STD=1 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_STRING_HAVE_NEQ_CHAR -DKWSYS_STL_HAVE_STD=1 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -5604,7 +5611,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ITERATOR_TRAITS -DKWSYS_STL_HAVE_STD=1 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ITERATOR_TRAITS -DKWSYS_STL_HAVE_STD=1 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -6295,7 +6302,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ALLOCATOR_TEMPLATE -DKWSYS_STL_HAVE_STD=1 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ALLOCATOR_TEMPLATE -DKWSYS_STL_HAVE_STD=1 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -6986,7 +6993,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ALLOCATOR_REBIND -DKWSYS_STL_HAVE_STD=1 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ALLOCATOR_REBIND -DKWSYS_STL_HAVE_STD=1 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -7677,7 +7684,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ALLOCATOR_MAX_SIZE_ARGUMENT -DKWSYS_STL_HAVE_STD=1 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ALLOCATOR_MAX_SIZE_ARGUMENT -DKWSYS_STL_HAVE_STD=1 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -8366,22 +8373,21 @@ void f(std ::wstring*) {}
 int main() { return 0; }
 #endif
 ------------------------------------------
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function 'void f(const std::allocator<char>&)':
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:256:25: error: no matching function for call to 'std::allocator<char>::max_size(long unsigned int) const'
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function 'void f(const std::allocator<char>&)':
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:256:25: error: no matching function for call to 'std::allocator<char>::max_size(long unsigned int) const'
    a.max_size(sizeof(int));
                          ^
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:256:25: note: candidate is:
-In file included from /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h:33:0,
-                 from /usr/include/c++/4.8.2/bits/allocator.h:46,
-                 from /usr/include/c++/4.8.2/memory:63,
-                 from /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:253:
-/usr/include/c++/4.8.2/ext/new_allocator.h:113:7: note: __gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = char; __gnu_cxx::new_allocator<_Tp>::size_type = long unsigned int]
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0,
+                 from /usr/include/c++/7/bits/allocator.h:46,
+                 from /usr/include/c++/7/memory:63,
+                 from /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:253:
+/usr/include/c++/7/ext/new_allocator.h:129:7: note: candidate: __gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = char; __gnu_cxx::new_allocator<_Tp>::size_type = long unsigned int]
        max_size() const _GLIBCXX_USE_NOEXCEPT
-       ^
-/usr/include/c++/4.8.2/ext/new_allocator.h:113:7: note:   candidate expects 0 arguments, 1 provided
+       ^~~~~~~~
+/usr/include/c++/7/ext/new_allocator.h:129:7: note:   candidate expects 0 arguments, 1 provided
 Test failed to compile
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ALLOCATOR_OBJECTS -DKWSYS_STL_HAVE_STD=1 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_ALLOCATOR_OBJECTS -DKWSYS_STL_HAVE_STD=1 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -9072,7 +9078,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_WSTRING -DKWSYS_STL_HAVE_STD=1 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_STL_HAS_WSTRING -DKWSYS_STL_HAVE_STD=1 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -9763,7 +9769,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_CSTDDEF /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_CSTDDEF /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -10454,7 +10460,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_NULL_TEMPLATE_ARGS /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_NULL_TEMPLATE_ARGS /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -11143,21 +11149,21 @@ void f(std ::wstring*) {}
 int main() { return 0; }
 #endif
 ------------------------------------------
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:141:21: warning: friend declaration 'int f(A<T>&)' declares a non-template function [-Wnon-template-friend]
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:141:21: warning: friend declaration 'int f(A<T>&)' declares a non-template function [-Wnon-template-friend]
    friend int f(A<T>&);
                      ^
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:141:21: note: (if this is not what you intended, make sure the function template has already been declared and add <> after the function name here) 
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx: In instantiation of 'int f(A<T>&) [with T = int]':
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:147:23:   required from here
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:143:7: error: 'int A<int>::x' is private
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:141:21: note: (if this is not what you intended, make sure the function template has already been declared and add <> after the function name here) 
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx: In instantiation of 'int f(A<T>&) [with T = int]':
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:147:23:   required from here
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:146:46: error: 'int A<int>::x' is private within this context
+ template <class T> int f(A<T>& a) { return a.x = 0; }
+                                            ~~^
+/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:143:7: note: declared private here
    int x;
        ^
-/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx:146:48: error: within this context
- template <class T> int f(A<T>& a) { return a.x = 0; }
-                                                ^
 Test failed to compile
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_MEMBER_TEMPLATES /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_MEMBER_TEMPLATES /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -11848,7 +11854,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_FULL_SPECIALIZATION /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_FULL_SPECIALIZATION /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -12539,7 +12545,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_ARGUMENT_DEPENDENT_LOOKUP /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_CXX_HAS_ARGUMENT_DEPENDENT_LOOKUP /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -13230,7 +13236,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_STAT_HAS_ST_MTIM /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_STAT_HAS_ST_MTIM /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library
@@ -13921,7 +13927,7 @@ int main() { return 0; }
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -m64 -fPIC -DTEST_KWSYS_IOS_HAVE_BINARY -DKWSYS_IOS_USE_ANSI=1 -DKWSYS_IOS_HAVE_STD=1 /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_396386_test
+Line: g++ -m64 -fPIC -DTEST_KWSYS_IOS_HAVE_BINARY -DKWSYS_IOS_USE_ANSI=1 -DKWSYS_IOS_HAVE_STD=1 /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_17481_test
 ----------  file   -----------------------
 /*============================================================================
   KWSys - Kitware System Library

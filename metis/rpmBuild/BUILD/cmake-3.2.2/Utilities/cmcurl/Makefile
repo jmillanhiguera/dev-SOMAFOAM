@@ -33,19 +33,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
+RM = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_SOURCE_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2
+CMAKE_BINARY_DIR = /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@echo "Run CPack packaging tool..."
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@echo "Run CPack packaging tool for source..."
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackSourceConfig.cmake /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CPackSourceConfig.cmake
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/bin/cpack --config ./CPackSourceConfig.cmake /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -143,14 +143,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_progress_start /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/CMakeFiles/progress.marks
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles 0
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/cmcurl/CMakeFiles/progress.marks
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/clean
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/clean
 .PHONY : clean
 
 # The main clean target
@@ -159,22 +159,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/preinstall
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/preinstall
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule
 .PHONY : Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ LIBCURL: Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule
 
 # fast build rule for target.
 LIBCURL/fast:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build
 .PHONY : LIBCURL/fast
 
 curltest.o: curltest.c.o
@@ -191,7 +191,7 @@ curltest.o: curltest.c.o
 
 # target to build an object file
 curltest.c.o:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o
 .PHONY : curltest.c.o
 
 curltest.i: curltest.c.i
@@ -199,7 +199,7 @@ curltest.i: curltest.c.i
 
 # target to preprocess a source file
 curltest.c.i:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.i
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.i
 .PHONY : curltest.c.i
 
 curltest.s: curltest.c.s
@@ -207,7 +207,7 @@ curltest.s: curltest.c.s
 
 # target to generate assembly for a file
 curltest.c.s:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.s
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.s
 .PHONY : curltest.c.s
 
 # Help Target
@@ -240,6 +240,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

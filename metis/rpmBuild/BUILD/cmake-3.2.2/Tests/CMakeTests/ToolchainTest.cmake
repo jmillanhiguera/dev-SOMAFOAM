@@ -12,7 +12,7 @@ set(CMAKE_PLATFORM_INFO_DIR "${CMAKE_CURRENT_BINARY_DIR}")
 set(CMAKE_C_COMPILER_ID_RUN 1)
 set(CMAKE_CXX_COMPILER_ID_RUN 1)
 
-set(MY_SOURCE_DIR "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests")
+set(MY_SOURCE_DIR "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests")
 
 # at first load CMakeDetermineSystem.cmake without toolchain file
 set(CMAKE_TOOLCHAIN_FILE)

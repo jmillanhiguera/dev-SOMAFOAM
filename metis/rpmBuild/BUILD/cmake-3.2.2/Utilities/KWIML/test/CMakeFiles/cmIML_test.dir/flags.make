@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/gcc
 # compile CXX with /usr/bin/g++
-C_FLAGS = -m64 -fPIC  -Wno-format -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/KWIML/test -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities    -std=gnu11
+C_FLAGS = -m64 -fPIC  -Wno-format -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/KWIML/test -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities    -std=gnu11
 
 C_DEFINES = -DKWIML_LANGUAGE_C -DKWIML_LANGUAGE_CXX -DKWIML_NAMESPACE=cmIML
 
-CXX_FLAGS = -m64 -fPIC  -Wno-format -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/KWIML/test -I/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities    -std=gnu++1y
+CXX_FLAGS = -m64 -fPIC  -Wno-format -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities/KWIML/test -I/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Utilities    -std=gnu++14
 
 CXX_DEFINES = -DKWIML_LANGUAGE_C -DKWIML_LANGUAGE_CXX -DKWIML_NAMESPACE=cmIML
 

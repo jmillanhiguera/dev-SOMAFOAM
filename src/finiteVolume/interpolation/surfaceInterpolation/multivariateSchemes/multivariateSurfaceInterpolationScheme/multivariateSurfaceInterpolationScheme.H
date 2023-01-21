@@ -67,6 +67,9 @@ public:
 
         void add(const GeometricField<Type, fvPatchField, volMesh>& f)
         {
+            // from Hashtable base class, copy insert a new entry, not overwriting 
+            // existing entries. Returns true if the entry did not previously
+            // exist in the table 
             this->insert(f.name(), &f);
         }
     };

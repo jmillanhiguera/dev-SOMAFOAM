@@ -23,7 +23,7 @@ try_and_print(AVAILABLE_VIRTUAL_MEMORY)
 try_and_print(TOTAL_PHYSICAL_MEMORY)
 try_and_print(AVAILABLE_PHYSICAL_MEMORY)
 
-include("/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
+include("/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Tests/CMakeTests/CheckCMakeTest.cmake")
 
 check_cmake_test(CMakeHostSystemInformation
 	BadArg1

@@ -6,7 +6,7 @@
   "coverage": 96.55172413793103,
   "files": [
     {
-      "filename": "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/JavascriptCoverage/test.js",
+      "filename": "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/JavascriptCoverage/test.js",
       "coverage": 96.55172413793103,
       "hits": 28,
       "misses": 1,
@@ -229,7 +229,7 @@
           "coverage": ""
         }
       }
-      "filename": "/data/vayyaswamy/ltps/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/JavascriptCoverage/test3.js",
+      "filename": "/home/gpp/dev-SOMAFOAM/metis/rpmBuild/BUILD/cmake-3.2.2/Testing/JavascriptCoverage/test3.js",
       "coverage": 55.00000000000001,
       "hits": 11,
       "misses": 9,
